@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B737351BD212A6008A67A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B737341BD212A6008A67A2 /* AppDelegate.swift */; };
+		11B737371BD212A6008A67A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B737361BD212A6008A67A2 /* ViewController.swift */; };
+		11B7373A1BD212A6008A67A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B737381BD212A6008A67A2 /* Main.storyboard */; };
+		11B7373C1BD212A6008A67A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B7373B1BD212A6008A67A2 /* Assets.xcassets */; };
+		11B7373F1BD212A6008A67A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B7373D1BD212A6008A67A2 /* LaunchScreen.storyboard */; };
+		11B7374A1BD212A6008A67A2 /* Kigyo_SenryakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B737491BD212A6008A67A2 /* Kigyo_SenryakuTests.swift */; };
+		11B737551BD212A6008A67A2 /* Kigyo_SenryakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B737541BD212A6008A67A2 /* Kigyo_SenryakuUITests.swift */; };
+		11B737631BD22A30008A67A2 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B737621BD22A30008A67A2 /* TodoList.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B737461BD212A6008A67A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B737291BD212A6008A67A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B737301BD212A6008A67A2;
+			remoteInfo = "Kigyo Senryaku";
+		};
+		11B737511BD212A6008A67A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B737291BD212A6008A67A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B737301BD212A6008A67A2;
+			remoteInfo = "Kigyo Senryaku";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11B737311BD212A6008A67A2 /* Kigyo Senryaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kigyo Senryaku.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B737341BD212A6008A67A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11B737361BD212A6008A67A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11B737391BD212A6008A67A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B7373B1BD212A6008A67A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B7373E1BD212A6008A67A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11B737401BD212A6008A67A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B737451BD212A6008A67A2 /* Kigyo SenryakuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kigyo SenryakuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B737491BD212A6008A67A2 /* Kigyo_SenryakuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kigyo_SenryakuTests.swift; sourceTree = "<group>"; };
+		11B7374B1BD212A6008A67A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B737501BD212A6008A67A2 /* Kigyo SenryakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kigyo SenryakuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B737541BD212A6008A67A2 /* Kigyo_SenryakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kigyo_SenryakuUITests.swift; sourceTree = "<group>"; };
+		11B737561BD212A6008A67A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B737621BD22A30008A67A2 /* TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B7372E1BD212A6008A67A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B737421BD212A6008A67A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B7374D1BD212A6008A67A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B737281BD212A6008A67A2 = {
+			isa = PBXGroup;
+			children = (
+				11B737331BD212A6008A67A2 /* Kigyo Senryaku */,
+				11B737481BD212A6008A67A2 /* Kigyo SenryakuTests */,
+				11B737531BD212A6008A67A2 /* Kigyo SenryakuUITests */,
+				11B737321BD212A6008A67A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B737321BD212A6008A67A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B737311BD212A6008A67A2 /* Kigyo Senryaku.app */,
+				11B737451BD212A6008A67A2 /* Kigyo SenryakuTests.xctest */,
+				11B737501BD212A6008A67A2 /* Kigyo SenryakuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B737331BD212A6008A67A2 /* Kigyo Senryaku */ = {
+			isa = PBXGroup;
+			children = (
+				11B737341BD212A6008A67A2 /* AppDelegate.swift */,
+				11B737361BD212A6008A67A2 /* ViewController.swift */,
+				11B737381BD212A6008A67A2 /* Main.storyboard */,
+				11B737621BD22A30008A67A2 /* TodoList.swift */,
+				11B7373B1BD212A6008A67A2 /* Assets.xcassets */,
+				11B7373D1BD212A6008A67A2 /* LaunchScreen.storyboard */,
+				11B737401BD212A6008A67A2 /* Info.plist */,
+			);
+			path = "Kigyo Senryaku";
+			sourceTree = "<group>";
+		};
+		11B737481BD212A6008A67A2 /* Kigyo SenryakuTests */ = {
+			isa = PBXGroup;
+			children = (
+				11B737491BD212A6008A67A2 /* Kigyo_SenryakuTests.swift */,
+				11B7374B1BD212A6008A67A2 /* Info.plist */,
+			);
+			path = "Kigyo SenryakuTests";
+			sourceTree = "<group>";
+		};
+		11B737531BD212A6008A67A2 /* Kigyo SenryakuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11B737541BD212A6008A67A2 /* Kigyo_SenryakuUITests.swift */,
+				11B737561BD212A6008A67A2 /* Info.plist */,
+			);
+			path = "Kigyo SenryakuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B737301BD212A6008A67A2 /* Kigyo Senryaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B737591BD212A6008A67A2 /* Build configuration list for PBXNativeTarget "Kigyo Senryaku" */;
+			buildPhases = (
+				11B7372D1BD212A6008A67A2 /* Sources */,
+				11B7372E1BD212A6008A67A2 /* Frameworks */,
+				11B7372F1BD212A6008A67A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kigyo Senryaku";
+			productName = "Kigyo Senryaku";
+			productReference = 11B737311BD212A6008A67A2 /* Kigyo Senryaku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B737441BD212A6008A67A2 /* Kigyo SenryakuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B7375C1BD212A6008A67A2 /* Build configuration list for PBXNativeTarget "Kigyo SenryakuTests" */;
+			buildPhases = (
+				11B737411BD212A6008A67A2 /* Sources */,
+				11B737421BD212A6008A67A2 /* Frameworks */,
+				11B737431BD212A6008A67A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B737471BD212A6008A67A2 /* PBXTargetDependency */,
+			);
+			name = "Kigyo SenryakuTests";
+			productName = "Kigyo SenryakuTests";
+			productReference = 11B737451BD212A6008A67A2 /* Kigyo SenryakuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11B7374F1BD212A6008A67A2 /* Kigyo SenryakuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B7375F1BD212A6008A67A2 /* Build configuration list for PBXNativeTarget "Kigyo SenryakuUITests" */;
+			buildPhases = (
+				11B7374C1BD212A6008A67A2 /* Sources */,
+				11B7374D1BD212A6008A67A2 /* Frameworks */,
+				11B7374E1BD212A6008A67A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B737521BD212A6008A67A2 /* PBXTargetDependency */,
+			);
+			name = "Kigyo SenryakuUITests";
+			productName = "Kigyo SenryakuUITests";
+			productReference = 11B737501BD212A6008A67A2 /* Kigyo SenryakuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B737291BD212A6008A67A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ArturoCobos;
+				TargetAttributes = {
+					11B737301BD212A6008A67A2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					11B737441BD212A6008A67A2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 11B737301BD212A6008A67A2;
+					};
+					11B7374F1BD212A6008A67A2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 11B737301BD212A6008A67A2;
+					};
+				};
+			};
+			buildConfigurationList = 11B7372C1BD212A6008A67A2 /* Build configuration list for PBXProject "Kigyo Senryaku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B737281BD212A6008A67A2;
+			productRefGroup = 11B737321BD212A6008A67A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B737301BD212A6008A67A2 /* Kigyo Senryaku */,
+				11B737441BD212A6008A67A2 /* Kigyo SenryakuTests */,
+				11B7374F1BD212A6008A67A2 /* Kigyo SenryakuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B7372F1BD212A6008A67A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B7373F1BD212A6008A67A2 /* LaunchScreen.storyboard in Resources */,
+				11B7373C1BD212A6008A67A2 /* Assets.xcassets in Resources */,
+				11B7373A1BD212A6008A67A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B737431BD212A6008A67A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B7374E1BD212A6008A67A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B7372D1BD212A6008A67A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B737631BD22A30008A67A2 /* TodoList.swift in Sources */,
+				11B737371BD212A6008A67A2 /* ViewController.swift in Sources */,
+				11B737351BD212A6008A67A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B737411BD212A6008A67A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B7374A1BD212A6008A67A2 /* Kigyo_SenryakuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B7374C1BD212A6008A67A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B737551BD212A6008A67A2 /* Kigyo_SenryakuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B737471BD212A6008A67A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B737301BD212A6008A67A2 /* Kigyo Senryaku */;
+			targetProxy = 11B737461BD212A6008A67A2 /* PBXContainerItemProxy */;
+		};
+		11B737521BD212A6008A67A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B737301BD212A6008A67A2 /* Kigyo Senryaku */;
+			targetProxy = 11B737511BD212A6008A67A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11B737381BD212A6008A67A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B737391BD212A6008A67A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11B7373D1BD212A6008A67A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B7373E1BD212A6008A67A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B737571BD212A6008A67A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B737581BD212A6008A67A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B7375A1BD212A6008A67A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kigyo Senryaku/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boss.Kigyo-Senryaku";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11B7375B1BD212A6008A67A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kigyo Senryaku/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boss.Kigyo-Senryaku";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11B7375D1BD212A6008A67A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kigyo SenryakuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boss.Kigyo-SenryakuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kigyo Senryaku.app/Kigyo Senryaku";
+			};
+			name = Debug;
+		};
+		11B7375E1BD212A6008A67A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kigyo SenryakuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boss.Kigyo-SenryakuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kigyo Senryaku.app/Kigyo Senryaku";
+			};
+			name = Release;
+		};
+		11B737601BD212A6008A67A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kigyo SenryakuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boss.Kigyo-SenryakuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kigyo Senryaku";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		11B737611BD212A6008A67A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kigyo SenryakuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boss.Kigyo-SenryakuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kigyo Senryaku";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B7372C1BD212A6008A67A2 /* Build configuration list for PBXProject "Kigyo Senryaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B737571BD212A6008A67A2 /* Debug */,
+				11B737581BD212A6008A67A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B737591BD212A6008A67A2 /* Build configuration list for PBXNativeTarget "Kigyo Senryaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7375A1BD212A6008A67A2 /* Debug */,
+				11B7375B1BD212A6008A67A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11B7375C1BD212A6008A67A2 /* Build configuration list for PBXNativeTarget "Kigyo SenryakuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B7375D1BD212A6008A67A2 /* Debug */,
+				11B7375E1BD212A6008A67A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11B7375F1BD212A6008A67A2 /* Build configuration list for PBXNativeTarget "Kigyo SenryakuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B737601BD212A6008A67A2 /* Debug */,
+				11B737611BD212A6008A67A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B737291BD212A6008A67A2 /* Project object */;
+}
